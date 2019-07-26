@@ -1,0 +1,16 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	LOOP              3005
+//	SCAN              300A
+//	EXIT_SCAN         3012
+//	DONE              3030
+//	STACK             3031
+//	ASCII             3032
+//	PROMPT1           3033
+//	PROMPT2           3052
+//	OCCURS            306F
+//	TIMES             3078
+//	CHAR_COUNT        3081
+

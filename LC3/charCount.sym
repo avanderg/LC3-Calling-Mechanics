@@ -1,0 +1,12 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	ZERO              330B
+//	ELSE              330D
+//	CHARACTER         3313
+//	ELSE2             3317
+//	RECURSION         331A
+//	END               332A
+//	CHAR_COUNT        3332
+

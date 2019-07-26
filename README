@@ -1,0 +1,31 @@
+Aaron VanderGraaff
+CSC 225
+
+This project was to write a simple C program that prompts the user for an
+input string and a character, then it returns the number of occurances in the 
+input string then convert it to assembly (LC3). charCount uses a recursive
+function to count the characters and so does the assembly version. The point
+of the project was to learn about function call mechanics in assembly. Running
+the assembly program requires the lc3 simulator (lc3sim and lc3as).
+
+To make both programs run:
+    $ make
+To make just the C program run:
+    $ make charCount
+To make just the LC3 program run:
+    $ make charCount_a
+
+To run the C program:
+    $ C/charCount
+
+To run the LC3 program:
+    $ cd LC3
+    $ lc3sim
+Then in the simulator:
+    (lc3sim) file charCount
+    (lc3sim) file main
+    (lc3sim) continue
+
+Make sure to load charCount before main because the pc needs to be pointing
+at main for the program to run.
+
